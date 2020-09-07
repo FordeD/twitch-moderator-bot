@@ -8,13 +8,13 @@ This bot developed special for twitch team [BANDA](https://www.twitch.tv/team/ba
 
 in index.js next after 10 line:
 
-``
+`
 const SPAM_CHECK = false;
 const LINCKS_CHECK = false;
 const BAN_USER_FOR_LINKS = false;
 const LOGGING_FETCH_MESSAGE = true;
 const MUTE_SECONDS = 300;
-``
+`
 
 * SPAM_CHECK - for checking duplicate messages (true/false variable);
 * LINCKS_CHECK - for checking links in message (true/false variable);
@@ -28,10 +28,10 @@ const MUTE_SECONDS = 300;
 1. Install this package on your computer or server.
 2. Create file `.env` in root bot folder.
 3. Write in file this strictire: 
-``
+`
 BOT_USERNAME=<Your_Bot_Name>
 OAUTH_TOKEN=<Your_Bot_Auth_Token>
-``
+`
 4. Create new user in twitch, set username in `.env` file.
 5. Run in https://twitchapps.com/tmi/ to create token for bot, you need authorise like a your bot.
 6. Connect and genere your full auth token with `auth:`, set this token in `.env` file.
