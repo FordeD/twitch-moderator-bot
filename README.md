@@ -19,6 +19,9 @@ in index.js next after 10 line:
 
 > const MUTE_SECONDS = 300;
 
+
+
+
 * SPAM_CHECK - for checking duplicate messages (true/false variable);
 * LINCKS_CHECK - for checking links in message (true/false variable);
 * BAN_USER_FOR_LINKS - for setting ban to user who sended link in chat if this value equals true, or setting mute for 300 seconds if equals false;
@@ -49,5 +52,5 @@ in index.js next after 10 line:
 15. This is end.
 
 
-**Thanks for using and contributing this bot!**
+**Thanks for using and contributing!**
 
