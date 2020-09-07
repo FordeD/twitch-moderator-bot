@@ -1,0 +1,23 @@
+{
+  "name": "bot-twitch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "twitch-bot",
+    "bot",
+    "without-database",
+    "tmi.js"
+  ],
+  "author": "FordeD",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-schedule": "^1.3.2",
+    "tmi.js": "^1.5.0"
+  }
+}
