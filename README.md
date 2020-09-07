@@ -10,9 +10,13 @@ in index.js next after 10 line:
 
 
 > const SPAM_CHECK = false;
+
 > const LINCKS_CHECK = false;
+
 > const BAN_USER_FOR_LINKS = false;
+
 > const LOGGING_FETCH_MESSAGE = true;
+
 > const MUTE_SECONDS = 300;
 
 * SPAM_CHECK - for checking duplicate messages (true/false variable);
@@ -28,6 +32,7 @@ in index.js next after 10 line:
 2. Create file `.env` in root bot folder.
 3. Write in file this strictire: 
 > BOT_USERNAME=<Your_Bot_Name>
+
 > OAUTH_TOKEN=<Your_Bot_Auth_Token>
 
 4. Create new user in twitch, set username in `.env` file.
